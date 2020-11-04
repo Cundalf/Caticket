@@ -1,0 +1,45 @@
+.login {
+	margin-top: 25vh;
+	text-align: center;
+}
+
+.login > i {
+	margin-bottom: 10px;
+}
+
+.login > span {
+	font-style: italic;
+    font-size: 12px;
+    color: gray;
+}
+
+.login > form > .row > .form-group {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+.login > form > .alert {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	margin-top: 5px;
+}
+
+.login form .row button {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+.form-control:focus {
+    border-color: #bd2130;
+    box-shadow: 0 0 0 0.2rem rgba(225,83,97,.5);
+}
+
+@media (max-width: 575.98px) {
+	.login form .row button, .login > form > .alert, .login > form > .row > .form-group {
+		width: 90%;
+	}
+}
